@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9370db;
+    background-image: url('donate1.jpg');
+    background-position: left;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.main-center{
+    width: 90vw;
+    padding-left: 2rem;
+    line-height: 10rem;
+    
+    letter-spacing: 0.2rem;
+    color: white;
+}
+
+.main-title{
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+}
+
+p::after{
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    
+    
+}
+
+h1{
+    font-size: 40px;
+}
+
+.content{
+    padding: 1rem;
+}
+
+.fa-phone{
+    transform: rotate(90deg);
+    margin-right: 1rem;
+}
+
+span{
+    font-weight: bold;
+}
+.content3{
+    margin-bottom: 1.5rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.1rem;
+    color: #9370db;
+}
+
+.c{
+    margin-bottom: 2rem;
+}
+
+
+.c-h{
+    margin-bottom: 2rem;
+}
+
+.fab{
+    border-radius: 100%;
+    background-color: #9370db;
+    color: white;
+    padding: 1rem;
+}
+
+form{
+    
+    border: none;
+    padding-left: 1rem;
+    max-width: 430px;
+}
+
+.form-name{
+    margin-top:1rem ;
+    margin-bottom: 1.5rem;
+    font-size: 25px;
+    line-height: 2.5rem;
+}
+.title{
+    padding: 0.3rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    
+    
+}
+input{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.068);
+    border: none;
+    outline-offset: none;
+    offset: none;
+    padding: 0.5rem;
+    
+    
+}
+
+.f{
+    margin-bottom: 0.5rem;
+}
+
+button{
+    background-color:#fdb453 ;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-top: 2rem;
+}
+.action{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.action-center{
+    width: 90vw;
+    height: fit-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-image: url('poverty.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.action-p{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.action-btn{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.dnt{
+    background-color: #9370db;
+    border-radius: 0px;
+    
+    
+}
+.bas{
+    background-color: #fdb453;
+    border-radius: 0px;
+    
+}
+
+@media  screen and (min-width: 700px) {
+    .section-flex{
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        margin-top: 5rem;
+    }
+
+    form{
+        width: 500px;
+    }
+}
+    
